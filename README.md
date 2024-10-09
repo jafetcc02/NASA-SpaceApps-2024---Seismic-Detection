@@ -17,10 +17,10 @@ Planetary seismology missions struggle with the power requirements necessary to 
 
 The project consists of a signal-enhancing algorithm for more efficient interpretation and response. This in order to detect the start of seismic signals from a signal file in order to delimit the information to the key moment and send it concisely to the ground instead of using all signals recorded in one day. Justification: A file with the one-day signals weighs 40 mega bytes, although the Earth data sent to Mars of are of 2 mega bytes per second robots send multiple data: as images that alone come to take 30 minutes several hours depending on the definition of the shot. It's like this, that we understand that Nasa wants to save the time of shipment messages fixing this sees detection event Spaces.
 
-# PROJECT DEMO
+## PROJECT DEMO
 
 https://github.com/jafetcc02/NASA-SpaceApps-2024---Seismic-Detection
 
-# PROJECT DETAILS
+## PROJECT DETAILS
 
 Problem: The challenge is to give the initial time at which the earthquake starts in the signal data file.
