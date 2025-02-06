@@ -1,26 +1,32 @@
-# NASA-SpaceApps-2024---Seismic-Detection
-Developed new algorithm to detect the timestap of the start of seismic detection. 
+# NASA-SpaceApps-2024 - Seismic Detection
+Developed a new algorithm to detect the timestamp of the start of seismic activity.
 
-# ABOUT THE TEAM
+## About the Team
+We are a university team from Guanajuato aiming to solve the challenge of detecting seismic events in space.  
+With this project, we apply our knowledge of Machine Learning and Deep Learning.
 
-We are a university team from Guanajuato that seeks to solve the Challenge of detecting seismic audios of space.
+## About the Challenge
+Planetary seismology missions struggle with power limitations when sending continuous seismic data back to Earth. However, only a fraction of this data is scientifically useful! Instead of transmitting all recorded data, what if a lander could distinguish meaningful seismic events from noise and send back only relevant information?
 
-With this challenge we will apply everything we know about Machine Learning and Deep Learning.
+Your challenge is to write a computer program that analyzes real seismic data from the Apollo missions and the Mars InSight Lander to identify seismic quakes within the noise.
 
-# ABOUT THE CHALLENGE
+---
 
-Planetary seismology missions struggle with the power requirements necessary to send continuous seismic data back to Earth. But only a fraction of this data is scientifically useful! Instead of sending back all the data collected, what if we could program a lander to distinguish signals from noise, and send back only the data we care about? Your challenge is to write a computer program to analyze real data from the Apollo missions and the Mars InSight Lander to identify seismic quakes within the noise!
+# Project: The Last Dans
 
-# PROJECT THE LAST DANS
+## High-Level Summary
+Our project implements a **signal-enhancement algorithm** to improve efficiency in detecting seismic events.  
+The goal is to identify the **exact start time** of a seismic event from a recorded signal file, reducing the amount of transmitted data.  
+### **Why is this important?**
+- A **single day's** worth of seismic data can be **40 MB** in size.
+- NASA's Mars landers transmit data at **2 MB per second** but send multiple types of data, such as images, which take **30 minutes to several hours** to transmit depending on resolution.
+- By **precisely detecting seismic events**, we can **reduce unnecessary data transmission**, optimizing communication time and bandwidth.
 
-## HIGH-LEVEL SUMMARY
+## Project Demo
+🔗 [GitHub Repository](https://github.com/jafetcc02/NASA-SpaceApps-2024---Seismic-Detection)
 
-The project consists of a signal-enhancing algorithm for more efficient interpretation and response. This in order to detect the start of seismic signals from a signal file in order to delimit the information to the key moment and send it concisely to the ground instead of using all signals recorded in one day. Justification: A file with the one-day signals weighs 40 mega bytes, although the Earth data sent to Mars of are of 2 mega bytes per second robots send multiple data: as images that alone come to take 30 minutes several hours depending on the definition of the shot. It's like this, that we understand that Nasa wants to save the time of shipment messages fixing this sees detection event Spaces.
+## Project Details
+**Problem:**  
+The challenge is to determine the **exact timestamp** of the start of a seismic event within a signal data file.
 
-## PROJECT DEMO
 
-https://github.com/jafetcc02/NASA-SpaceApps-2024---Seismic-Detection
-
-## PROJECT DETAILS
-
-Problem: The challenge is to give the initial time at which the earthquake starts in the signal data file.
