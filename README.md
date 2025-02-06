@@ -12,7 +12,7 @@ Your challenge is to write a computer program that analyzes real seismic data fr
 
 ---
 
-# Project: The Last Dans
+# Team Name: The Last Dans
 
 ## High-Level Summary
 Our project implements a **signal-enhancement algorithm** to improve efficiency in detecting seismic events.  
